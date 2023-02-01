@@ -27,7 +27,7 @@ export class PorPaisComponent {
       .subscribe({
         next: paises => {
 
-          this.paises = paises; // ¿?
+          this.paises = paises;
           console.log( paises ); 
           
         },
